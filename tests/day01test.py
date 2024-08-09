@@ -6,7 +6,7 @@ class DayOneExercises(unittest.TestCase):
     def test_divisible_by_seven_but_not_by_five(self):
         expected_result = [7, 14, 21, 28, 42, 49]
 
-        self.assertEqual(expected_result, divisible_by_seven())
+        self.assertEqual(expected_result, divisible_by_seven_not_by_five())
 
     def test_factorial_number_calculator(self):
         test_input = 8
