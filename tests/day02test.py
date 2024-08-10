@@ -1,6 +1,5 @@
 import unittest
 from unittest.mock import patch
-import sys
 import io
 from day02 import *
 
