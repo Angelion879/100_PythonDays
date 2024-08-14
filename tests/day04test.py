@@ -19,3 +19,8 @@ class DayFourExercises(unittest.TestCase):
         test_input = '0100,0011,1010,1001'
         actual_result = divisible_by_five(test_input)
         self.assertEqual(expected_result, actual_result)
+
+    def test_all_even_digits(self):
+        expected_result = '2000,2002,2004,2006,2008'
+
+        self.assertEqual(expected_result, get_only_all_even_digits_numbers())
